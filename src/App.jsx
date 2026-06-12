@@ -578,7 +578,7 @@ const App = () => {
                 <h2>Pure care by nature</h2>
                 <p>Thoughtfully crafted formulas designed to bring balance and calm to your daily routine. Lightweight textures and gentle ingredients.</p>
               </div>
-              <img src="/images/5.jpg" alt="care" />
+              <img src="images/5.jpg" alt="care" />
             </div>
           </div>
         </div>
@@ -628,7 +628,7 @@ const App = () => {
 
       {/* Beauty Section with Accordion */}
       <section className="beauty-section">
-        <div className="left"><img src="/images/4.jpg" alt="beauty" /></div>
+        <div className="left"><img src="images/4.jpg" alt="beauty" /></div>
         <div className="right">
           <div className="top-content">
             <h1>Let’s Talk About Beauty</h1>

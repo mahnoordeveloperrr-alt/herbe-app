@@ -16,32 +16,32 @@ const App = () => {
   const faqItems = [
     {
       title: "Top 5 Lipstick Shades of the Season",
-      img: "/images/1.jpg",
+      img: "images/1.jpg",
       answer: "Trending shades include nude, coral, and deep red tones."
     },
     {
       title: "Makeup Tips from Professionals",
-      img: "/images/2.jpg",
+      img: "images/2.jpg",
       answer: "Blend properly and use minimal products for best results."
     },
     {
       title: "Best Skincare Routine",
-      img: "/images/3.jpg",
+      img: "images/3.jpg",
       answer: "Cleanse, tone, and moisturize daily."
     },
     {
       title: "All Articles",
-      img: "/images/4.jpg",
+      img: "images/4.jpg",
       answer: "Browse all beauty related articles here."
     }
   ];
 
   // Cards Data
   const cards = [
-    { category: "body", img: "/images/1.jpg" },
-    { category: "face", img: "/images/2.jpg" },
-    { category: "hair", img: "/images/3.jpg" },
-    { category: "other", img: "/images/4.jpg" }
+    { category: "body", img: "images/1.jpg" },
+    { category: "face", img: "images/2.jpg" },
+    { category: "hair", img: "images/3.jpg" },
+    { category: "other", img: "images/4.jpg" }
   ];
 
   return (
@@ -528,10 +528,10 @@ const App = () => {
 
       {/* Hero Section */}
       <section className="hero">
-        <img src="/images/1.jpg" className="img-left-top" alt="leaf" />
-        <img src="/images/2.jpg" className="img-left-bottom" alt="oil" />
-        <img src="/images/3.jpg" className="img-right-top" alt="botanical" />
-        <img src="/images/4.jpg" className="img-right-bottom" alt="ritual" />
+        <img src="images/1.jpg" className="img-left-top" alt="leaf" />
+        <img src="images/2.jpg" className="img-left-bottom" alt="oil" />
+        <img src="images/3.jpg" className="img-right-top" alt="botanical" />
+        <img src="images/4.jpg" className="img-right-bottom" alt="ritual" />
         <div className="hero-content">
           <h1>
             <span className="with-leaf">
@@ -568,11 +568,11 @@ const App = () => {
               <p>Sage is about consciously simple — effective formulas, thoughtful ingredients, and soft textures designed for real everyday life.</p>
               <a href="#" className="btn" onClick={(e) => e.preventDefault()}>More about Sage</a>
             </div>
-            <img src="/images/2.jpg" alt="Sage" />
+            <img src="images/2.jpg" alt="Sage" />
           </div>
           <div className="bottom">
-            <div className="card1"><img src="/images/7.jpg" alt="ritual" /></div>
-            <div className="card1"><img src="/images/6.jpg" alt="essence" /></div>
+            <div className="card1"><img src="images/7.jpg" alt="ritual" /></div>
+            <div className="card1"><img src="images/6.jpg" alt="essence" /></div>
             <div className="card1">
               <div className="text-block">
                 <h2>Pure care by nature</h2>
@@ -589,7 +589,7 @@ const App = () => {
         <div className="ban">
           <div className="banner">
             <div className="left-pro">
-              <div className="product-image"><img src="/images/1.jpg" alt="Full size product" /></div>
+              <div className="product-image"><img src="images/1.jpg" alt="Full size product" /></div>
               <div className="discount-box">
                 <span>NEW COLLECTION</span>
                 <h1>UP TO<br />50% OFF</h1>
@@ -616,14 +616,14 @@ const App = () => {
           <p className="sub">Multitasking formulas designed to simplify your routine.<br />Clean, effective, and balanced skincare.</p>
           <div className="big-new">NEW</div>
           <div className="right-box">
-            <img src="/images/7.jpg" alt="product" />
+            <img src="images/7.jpg" alt="product" />
             <div className="text-box">
               <p>Gentle yet effective formulation suitable for daily skincare use enhances natural glow and skin barrier while keeping skin healthy and balanced. Multitasking formulas designed to simplify your routine. Clean, effective, and balanced skincare.</p>
               <button onClick={() => alert('Catalog')}>Catalog</button>
             </div>
           </div>
         </div>
-        <img src="/images/6.jpg" className="img img1" alt="main" />
+        <img src="images/6.jpg" className="img img1" alt="main" />
       </section>
 
       {/* Beauty Section with Accordion */}
